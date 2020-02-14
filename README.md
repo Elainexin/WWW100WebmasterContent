@@ -25,20 +25,20 @@ WAN is Wide Area Network
 Example: This is a [My First HTML Page](./act1_feb13.html)
 
 ### HTML tags
-- <h1></h1> to <h6></h6> 6 heading tags
-- <p></p> paragraph tag
-- <ul> </ul> unordered list tag creates a list with indentation
-- <ol> </ol> ordered list with numbers
-- <li></li> is used inside <ul></ul> or <ol></ol>
-- if we use <li></li> without <ul> or <ol>, there will be bullets without indentation
-- <!DOCTYPE html> helps browser to open the file properly on different divces 
-- <a href="./act1_feb13.html">Go to Page 1</a> Anchor tag helps to create a hyperlink.
-- <blockquote></blockquote> 
-- <strong></strong> Defines important text in bold text
-- <br> line break, it gives a big space. it has no end tag
-- <dl></dl> defines a description list. It's used toger with <dt> and <dd> inside. 
-- <dt> (defines terms/names), it shows on the left.
-- <dd> (describes each term/name), it shows on the right.
+- `<h1></h1>` to `<h6></h6>` 6 heading tags
+- `<p></p>` paragraph tag
+- `<ul> </ul>` unordered list tag creates a list with indentation
+- `<ol> </ol>` ordered list with numbers
+- `<li></li>` is used inside `<ul></ul>` or `<ol></ol>`
+- if we use `<li></li>` without `<ul>` or `<ol>`, there will be bullets without indentation
+- `<!DOCTYPE html>` helps browser to open the file properly on different divces 
+- `<a href="./act1_feb13.html">Go to Page 1</a>` Anchor tag helps to create a hyperlink.
+- `<blockquote></blockquote>` specifies a section that is quoted from another source. Browsers usually indent <blockquote> elements
+- `<strong></strong>` Defines important text in bold text
+- `<br>` line break, it gives a big space. it has no end tag
+- `<dl></dl>` defines a description list. It's used toger with `<dt>` and `<dd>` inside. 
+- `<dt>` (defines terms/names), it shows on the left.
+- `<dd>` (describes each term/name), it shows on the right.
 ```
 <dl>
   <dt>Coffee</dt>
@@ -47,10 +47,10 @@ Example: This is a [My First HTML Page](./act1_feb13.html)
   <dd>White cold drink</dd>
 </dl>
 ```
-- HTML Trademark Symbol: &trade;
-- HTML Coperight Symbol: &copy;
+- HTML Trademark Symbol: `&trade` &trade;
+- HTML Coperight Symbol: `&copy` &copy;
 
 ### Adding Styles to a page
 - add style or format inline by using the "style" attribute in each opening tag
 	- style = "style_name: style_value;"
-	- <p style = "color:darkblue;">example<p>
+	- `<p style = "color:darkblue;">example<p>`
