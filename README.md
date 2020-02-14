@@ -22,7 +22,7 @@ WAN is Wide Area Network
 - Web page: Each document on the World Wide Web
 - Web pages store on **Web Servers** 
 
-Example: This is a [My First HTML Page](./act1_feb13.html)
+Example: This is a [My First HTML Page](./myFirstPage.html)
 
 ### HTML tags
 - `<h1></h1>` to `<h6></h6>` 6 heading tags
@@ -33,7 +33,7 @@ Example: This is a [My First HTML Page](./act1_feb13.html)
 - if we use `<li></li>` without `<ul>` or `<ol>`, there will be bullets without indentation
 - `<!DOCTYPE html>` helps browser to open the file properly on different divces 
 - `<a href="./act1_feb13.html">Go to Page 1</a>` Anchor tag helps to create a hyperlink.
-- `<blockquote></blockquote>` specifies a section that is quoted from another source. Browsers usually indent <blockquote> elements
+- `<blockquote></blockquote>` specifies a section that is quoted from another source. Browsers usually indent `<blockquote>` elements
 - `<strong></strong>` Defines important text in bold text
 - `<br>` line break, it gives a big space. it has no end tag
 - `<dl></dl>` defines a description list. It's used toger with `<dt>` and `<dd>` inside. 
