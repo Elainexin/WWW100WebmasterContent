@@ -137,24 +137,22 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 - The **alt** attribute defines an **alternative** text description of the image when images is not showed.
 - The **src** attribute specifies the URL/path of an image
 
-	`<img src="./images/image1.jpg" alt="party1 description" height="150" >
-    <img src="./images/image2.jpg" alt="party2 description" height="150">
-    <img src="./images/image3.jpg" alt="party3 description" height="150">`
+	`<img src="./images/image1.jpg" alt="party1 description" height="150" >`
 
 #### HTML Tabels
 - An HTML table is defined with the `<table>` tag.
 	- Each table row is defined with the `<tr>` tag. A table header is defined with the `<th>` tag. By default, table headings are bold and centered. A table data/cell is defined with the `<td>` tag.
 - Adding a Border by using the **border** attribute:
-	- add border attribute to the table tag:
-		`<table border="1">
-	        <tr>
-	            <td>Column1</td>
-	            <td>Column2</td>
-	        </tr>
-	        <tr>
-	            <td>Column1</td>
-	            <td>Column2</td>
-	        </tr>
-	    </table>`
-- The border attribute of `<table>` is not supported in HTML5. Use CSS instead.
+	- add border attribute to the table tag
+	`<table border="1">
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+        </tr>
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+        </tr>
+    </table>`
+	- The border attribute of `<table>` is not supported in HTML5. Use CSS instead.
 
