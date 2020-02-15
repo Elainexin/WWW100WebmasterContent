@@ -156,7 +156,7 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
         </tr>
     </table>
     ```
-    <table border="1">
+    <table>
         <tr>
             <td>Row1 Column1</td>
             <td>Row1 Column2</td>
