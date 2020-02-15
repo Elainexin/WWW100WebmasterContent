@@ -144,15 +144,27 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 	- Each table row is defined with the `<tr>` tag. A table header is defined with the `<th>` tag. By default, table headings are bold and centered. A table data/cell is defined with the `<td>` tag.
 - Adding a Border by using the **border** attribute:
 	- add border attribute to the table tag
-	`<table border="1">
+	```
+	<table border="1">
         <tr>
-            <td>Column1</td>
-            <td>Column2</td>
+            <td>Row1 Column1</td>
+            <td>Row1 Column2</td>
         </tr>
         <tr>
-            <td>Column1</td>
-            <td>Column2</td>
+            <td>Row2 Column1</td>
+            <td>Row2 Column2</td>
         </tr>
-    </table>`
+    </table>
+    ```
+    <table border="1">
+        <tr>
+            <td>Row1 Column1</td>
+            <td>Row1 Column2</td>
+        </tr>
+        <tr>
+            <td>Row2 Column1</td>
+            <td>Row2 Column2</td>
+        </tr>
+    </table>
 	- The border attribute of `<table>` is not supported in HTML5. Use CSS instead.
 
