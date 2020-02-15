@@ -97,13 +97,13 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 
 #### Defining a Style Rule
 - The general syntax of a CSS style rule is: 
-```
-selector {
-	property1: value1; 
-	property2: value2; 
-	property3: value3;
-}
-```
+	```
+	selector {
+		property1: value1; 
+		property2: value2; 
+		property3: value3;
+	}
+	```
 
 - The selctor could be a Tag, for example: 
 	  ```p{
@@ -117,18 +117,18 @@ selector {
 	    where the #item id was assigned to a `<p>` tag in HTML:
 	    `<p id="item">We're practicing CSS today!</p>`
 - The selector can be a class .class which was assigned to a groups of elements:
-		- Step1: Declase a class for a group of tags
-				```
-				<p class="yellowItems">Paragraph 11</p>
-	   			<p class="yellowItems">Paragraph 12</p>
-	    		<p class="yellowItems">Paragraph 13</p>
-	    		```
-		- Step2: Declare style using .class_name
-	        	```
-	        	.yellowItems{
-        			color:yellowgreen;
-    			}
-    			```
+	- Step1: Declase a class for a group of tags
+		```
+		<p class="yellowItems">Paragraph 11</p>
+		<p class="yellowItems">Paragraph 12</p>
+		<p class="yellowItems">Paragraph 13</p>
+		```
+	- Step2: Declare style using .class_name
+    	```
+    	.yellowItems{
+			color:yellowgreen;
+		}
+		```
     	
 
 #### External style sheet
@@ -171,12 +171,12 @@ selector {
         </tr>
     </table>
 - The border attribute of `<table>` is not supported in HTML5. Use CSS instead:
-```
+	```
 	<style>
 	    table,tr,th,td{
 	        border: 1px solid black;
 	        border-collapse: collapse;
 	    }   
 	</style>
-```
+	```
 
