@@ -97,11 +97,13 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 
 #### Defining a Style Rule
 - The general syntax of a CSS style rule is: 
-`selector {
+```
+selector {
 	property1: value1; 
 	property2: value2; 
 	property3: value3;
-}`
+}
+```
 
 	- The selctor could be a Tag, for example: 
 	  `p{
@@ -167,12 +169,12 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
         </tr>
     </table>
 - The border attribute of `<table>` is not supported in HTML5. Use CSS instead:
-	```
-		<style>
-	        table,tr,th,td{
-	            border: 1px solid black;
-	            border-collapse: collapse;
-	        }   
-	    </style>
-    ```
+```
+<style>
+    table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }   
+</style>
+```
 
