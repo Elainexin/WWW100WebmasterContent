@@ -105,28 +105,30 @@ selector {
 }
 ```
 
-	- The selctor could be a Tag, for example: 
-	  `p{
+- The selctor could be a Tag, for example: 
+	  ```p{
             color:darkgreen;
             font-size: 25px;
-        }`
-    - The selectror can be a #id which was assigned to a single tag, e.g.:
-	    `#item{
+        }```
+- The selectror can be a #id which was assigned to a single tag, e.g.:
+	    ```#item{
 	            color:darkorange;
-	        }`
+	        }```
 	    where the #item id was assigned to a `<p>` tag in HTML:
-	    `
-	    	<p id="item">We're practicing CSS today!</p>
-	    `
-	- The selector can be a class .class which was assigned to a groups of elements:
+	    `<p id="item">We're practicing CSS today!</p>`
+- The selector can be a class .class which was assigned to a groups of elements:
 		- Step1: Declase a class for a group of tags
-				`<p class="yellowItems">Paragraph 11</p>
-	   			 <p class="yellowItems">Paragraph 12</p>
-	    		 <p class="yellowItems">Paragraph 13</p>`
+				```
+				<p class="yellowItems">Paragraph 11</p>
+	   			<p class="yellowItems">Paragraph 12</p>
+	    		<p class="yellowItems">Paragraph 13</p>
+	    		```
 		- Step2: Declare style using .class_name
-	        	`.yellowItems{
+	        	```
+	        	.yellowItems{
         			color:yellowgreen;
-    			`}
+    			}
+    			```
     	
 
 #### External style sheet
@@ -170,11 +172,11 @@ selector {
     </table>
 - The border attribute of `<table>` is not supported in HTML5. Use CSS instead:
 ```
-<style>
-    table,tr,th,td{
-        border: 1px solid black;
-        border-collapse: collapse;
-    }   
-</style>
+	<style>
+	    table,tr,th,td{
+	        border: 1px solid black;
+	        border-collapse: collapse;
+	    }   
+	</style>
 ```
 
