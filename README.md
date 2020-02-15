@@ -166,5 +166,13 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
             <td>Row2 Column2</td>
         </tr>
     </table>
-	- The border attribute of `<table>` is not supported in HTML5. Use CSS instead.
+- The border attribute of `<table>` is not supported in HTML5. Use CSS instead:
+	```
+		<style>
+	        table,tr,th,td{
+	            border: 1px solid black;
+	            border-collapse: collapse;
+	        }   
+	    </style>
+    ```
 
