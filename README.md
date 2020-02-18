@@ -110,20 +110,20 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
             color:darkgreen;
             font-size: 25px;
         }```
-- The selectror can be a #id which was assigned to a single tag, e.g.:
+- The selectror can be a **#id** which was assigned to a single tag, e.g.:
 	    ```#item{
 	            color:darkorange;
 	        }```
 	    where the #item id was assigned to a `<p>` tag in HTML:
 	    `<p id="item">We're practicing CSS today!</p>`
-- The selector can be a class .class which was assigned to a groups of elements:
+- The selector can be a **.class** which was assigned to a groups of elements:
 	- Step1: Declase a class for a group of tags
 		```
 		<p class="yellowItems">Paragraph 11</p>
 		<p class="yellowItems">Paragraph 12</p>
 		<p class="yellowItems">Paragraph 13</p>
 		```
-	- Step2: Declare style using .class_name
+	- Step2: Declare style using **.class_name**
     	```
     	.yellowItems{
 			color:yellowgreen;
@@ -146,6 +146,7 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 #### HTML Tabels
 - An HTML table is defined with the `<table>` tag.
 	- Each table row is defined with the `<tr>` tag. A table header is defined with the `<th>` tag. By default, table headings are bold and centered. A table data/cell is defined with the `<td>` tag.
+- Table header 	`<th>` gives a bold centered text. 
 - Adding a Border by using the **border** attribute:
 	- add border attribute to the table tag
 	```
@@ -170,7 +171,7 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
             <td>Row2 Column2</td>
         </tr>
     </table>
-- The border attribute of `<table>` is not supported in HTML5. Use CSS instead:
+- The border attribute of `<table>` is not supported in HTML5. Use CSS border property instead:
 	```
 	<style>
 	    table,tr,th,td{
@@ -179,4 +180,34 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 	    }   
 	</style>
 	```
+
+#### Styling a table by CSS
+- nth-child selector: For zebra-striped tables, use the **nth-child()** selector and add a background-color to all even (or odd) table rows:
+	`tr:nth-child(even) {background-color: #f2f2f2;}`
+
+## Session 3 on Feb 18
+### Layout
+- Page layout is the part of web design that deals in the arrangement of visual elements on a page.
+- Design layout by using HTML Layout :
+	- `<div>` Elements
+	- HTML Tables
+	- HTML5 elements
+		-use `<header>`, `<nav>`, `<section>`, `<footer>`, etc. Will talk after midterm
+
+- The `<div>` element is often used as a layout tool, because it can easily be positioned with CSS.
+		- The `<div>` element is a block level element used for grouping HTML elements.
+		- It's a container unit that encapsulates other page elements and divides the HTML document into sections.
+		- Web developers use `<div>` elements to group together HTML elements and apply CSS styles to many elements at once.
+
+- Pixel is the unit of measurement. In digital imaging, a pixel, pel, or picture element is a physical point in a raster image. It is the smallest controllable element of a picture represented on the screen. The normal screen size is about 1400 × 800 px.
+
+- Styling CSS properties:
+	- background-color, color; 
+	- text-align: center;
+	- height: auto;
+	- width: auto;
+	- **margin** is the space between the element and the screen. 
+	- **padding** is the space between the border and the content.
+	- use **float** to place divs side by side.
+	- font-size, font-style
 
