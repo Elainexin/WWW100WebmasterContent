@@ -211,3 +211,33 @@ Most elements are coded as a pair of tags: an opening tag and a closing tag. Tag
 	- use **float** to place divs side by side.
 	- font-size, font-style
 
+## Session 3 on Feb 19
+### HTML 5 LAYOUT ELEMENTS
+Instead of using `<div>` and assign id to it, HTML5 offers new semantic elements that define the different parts of a web page:
+- `<header>` - Defines a header for a document or a section.
+- `<nav>` - Defines a container for navigation links.
+- `<main>` - Specifies the main content of a document.
+- `<section>` - Defines a section in a document.
+- `<article>` - Defines an independent self-contained article.
+
+#### Add Multimedia to Web Page
+- Adding HTML5 Audio, where url1, url2, etc. are the possible sources of the audio clip.
+	```
+	<audio>
+		<source src=”url1” /> 
+		<source src=”url2” />
+	</audio>
+	```
+- Adding Video in HTML5
+	```
+	<video>
+		<source src=”url1” /> <source src=”url2” /> ...
+	</video>
+	```
+
+- `<audio>` tag Attributes:
+	- autoplay: Specifies that the audio will start playing as soon as it is ready
+	- controls: Specifies that audio controls should be displayed (such as a play/pause button etc)
+	- loop: Specifies that the audio will start over again, every time it is finished
+	- muted: Specifies that the audio output should be muted
+	
