@@ -240,4 +240,61 @@ Instead of using `<div>` and assign id to it, HTML5 offers new semantic elements
 	- controls: Specifies that audio controls should be displayed (such as a play/pause button etc)
 	- loop: Specifies that the audio will start over again, every time it is finished
 	- muted: Specifies that the audio output should be muted
+
+### Web Form Feb 20
+Web forms collect information from Web site visitors.
+- HTML supports the following control elements:
+	- Inputboxes
+	- Option buttons 
+	- Selection lists 
+	- Check boxes
+	- Text areas
+
+#### How to Process/Collect form data?
+To collect/process form data, a server-side or client-side program is is required
+- Server-side programs are written in many languages including PHP, Python, ASP, ...
+- Client-side programs are written in JavaScript, ReactJS, ...
+
+```
+<form attributes> 
+	content
+</form>
+```
+- HTML Input Types
+Here are the different input types you can use in HTML form:
+	- `<input type="text">`
+	- `<input type="date">`
+	- `<input type="email">`
+	- `<input type="number">`
+	- `<input type="submit" value="Register">` gives a Register button
+	- by giving **name** attribute to `<input>`, user can ONLY select one radio button
+	- The input **value** attribute specifies an initial value for an input field:
+	```
+	        <p>Do u need extra insurance: 
+            <input type="radio" name="insurance" value="y">Yes
+            <input type="radio" name="insurance" value="n">No
+        	</p>
+	```
+
+
+[Learn more about web form](https://www.w3schools.com/html/html_forms.asp)
+
+- HTML 5 standard: for self closing tag, it's better to have a / before > `<input type="email"/`
+- Creat a comment box using `<textarea>`
+	- The `<textarea>` tag defines a multi-line text input control.
+	- The size of a text area can be specified by the **cols** and **rows** attributes, or even better; through CSS' height and width properties.
+	- **placeholder** attribute specifies a short hint that describes the expected value of a text area
+-  `<select>` Tag create a drop-down list with options
+	- The `<option>` tags inside the `<select>` element define the available options in the list.
+	```
+    <select name="city" id="city">
+        <option value="Chongqing">Chongqing</option>
+        <option value="Toronto">Toronto</option>
+        <option value="NewYork">New York</option>
+    </select>
+    ```
+
+
+
+
 	
